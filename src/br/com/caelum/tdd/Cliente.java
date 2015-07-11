@@ -3,7 +3,13 @@ package br.com.caelum.tdd;
 public class Cliente {
 
 	private String nome;
-	private Estado estado;
+	private Estado estado;		
+	
+	public Cliente(String nome, Estado estado) {
+		super();
+		this.nome = nome;
+		this.estado = estado;
+	}
 	
 	public String getNome() {
 		return nome;
@@ -17,7 +23,5 @@ public class Cliente {
 	public void setEstado(Estado estado) {
 		this.estado = estado;
 	}
-	
-	
-	
+
 }

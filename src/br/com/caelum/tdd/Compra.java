@@ -6,7 +6,14 @@ public class Compra {
 	
 	private List<Item> itens;
 	private Cliente cliente;
-	private double valor;
+	private double valor;		
+	
+	public Compra(List<Item> itens, Cliente cliente, double valor) {
+		super();
+		this.itens = itens;
+		this.cliente = cliente;
+		this.valor = valor;
+	}
 	
 	public List<Item> getItens() {
 		return itens;
