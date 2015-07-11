@@ -28,6 +28,9 @@ public class Compra {
 		this.cliente = cliente;
 	}
 	public double getValor() {
+		for(int i = 0; i < itens.size(); i++){
+			valor += itens.get(i).getPreco() * itens.get(i).getQuantidade();
+		}
 		return valor;
 	}
 	public void setValor(double valor) {

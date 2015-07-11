@@ -24,11 +24,21 @@ public class CalculoFinalTest {
 	}
 	
 	@Test
-	public void testeCalculoFinal(){
+	public void testeCalculoFinalFreteSPAte3Itens(){
 		Cliente cliente = new Cliente("Ricardo", Estado.SP);
 		Item item1 = new Item("Iphone 4", 900, 1);			
 		Compra compra = new Compra(Arrays.asList(item1), cliente, item1.getPreco());
-		assertEquals((900+10)*0.9, calculoFinal.calcula(compra), 0.0001);
+		assertEquals((900+10-(900*0.10)), calculoFinal.calcula(compra), 0.0001);
+	}
+	
+	@Test
+	public void testeCalculoFinalFreteSPCom3Itens(){
+		Cliente cliente = new Cliente("Mauricio", Estado.SP);
+		Item item1 = new Item("Iphone 4", 900, 3);	
+		Item item2 = new Item("Macbook", 1200, 2);	
+		Item item3 = new Item("TV 52 Polegadas", 3200, 1);	
+		Compra compra = new Compra(Arrays.asList(item1, item2, item3), cliente, item1.getPreco());
+		assertEquals((900+10-(900*0.10)), calculoFinal.calcula(compra), 0.0001);
 	}
 	
 	
