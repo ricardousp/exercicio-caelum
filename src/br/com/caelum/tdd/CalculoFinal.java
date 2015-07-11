@@ -1,4 +1,7 @@
-package br.com.caelum.tdd.exercicio6;
+package br.com.caelum.tdd;
+
+import br.com.caelum.tdd.desconto.DescontoFactory;
+import br.com.caelum.tdd.frete.FreteFactory;
 
 public class CalculoFinal {
 	

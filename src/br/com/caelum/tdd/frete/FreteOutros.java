@@ -1,4 +1,6 @@
-package br.com.caelum.tdd.exercicio6;
+package br.com.caelum.tdd.frete;
+
+import br.com.caelum.tdd.Compra;
 
 public class FreteOutros implements Frete{
 

@@ -1,4 +1,4 @@
-package br.com.caelum.tdd.exercicio6;
+package br.com.caelum.tdd;
 
 public class Item {
 	

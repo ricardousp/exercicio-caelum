@@ -1,4 +1,7 @@
-package br.com.caelum.tdd.exercicio6;
+package br.com.caelum.tdd.frete;
+
+import br.com.caelum.tdd.Compra;
+import br.com.caelum.tdd.Estado;
 
 public class FreteFactory {
 

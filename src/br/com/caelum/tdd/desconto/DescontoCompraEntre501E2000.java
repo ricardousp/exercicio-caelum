@@ -1,4 +1,6 @@
-package br.com.caelum.tdd.exercicio6;
+package br.com.caelum.tdd.desconto;
+
+import br.com.caelum.tdd.Compra;
 
 public class DescontoCompraEntre501E2000 implements Desconto{
 

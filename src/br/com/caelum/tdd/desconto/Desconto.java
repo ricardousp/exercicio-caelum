@@ -1,4 +1,6 @@
-package br.com.caelum.tdd.exercicio6;
+package br.com.caelum.tdd.desconto;
+
+import br.com.caelum.tdd.Compra;
 
 public interface Desconto {
 	
