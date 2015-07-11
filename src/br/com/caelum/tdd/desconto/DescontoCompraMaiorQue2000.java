@@ -6,7 +6,7 @@ public class DescontoCompraMaiorQue2000 implements Desconto{
 
 	@Override
 	public double calcula(Compra compra) {		
-		return compra.getValor()*1.15;
+		return compra.getValor()*0.15;
 	}
 
 }

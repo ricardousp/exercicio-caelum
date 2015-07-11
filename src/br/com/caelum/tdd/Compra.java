@@ -5,14 +5,12 @@ import java.util.List;
 public class Compra {
 	
 	private List<Item> itens;
-	private Cliente cliente;
-	private double valor;		
+	private Cliente cliente;		
 	
-	public Compra(List<Item> itens, Cliente cliente, double valor) {
+	public Compra(List<Item> itens, Cliente cliente) {
 		super();
 		this.itens = itens;
-		this.cliente = cliente;
-		this.valor = valor;
+		this.cliente = cliente;	
 	}
 	
 	public List<Item> getItens() {
@@ -27,14 +25,14 @@ public class Compra {
 	public void setCliente(Cliente cliente) {
 		this.cliente = cliente;
 	}
+	
 	public double getValor() {
+		double valor = 0.0;
 		for(int i = 0; i < itens.size(); i++){
 			valor += itens.get(i).getPreco() * itens.get(i).getQuantidade();
 		}
 		return valor;
 	}
-	public void setValor(double valor) {
-		this.valor = valor;
-	}			
+			
 	
 }
