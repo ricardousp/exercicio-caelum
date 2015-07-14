@@ -16,9 +16,6 @@ public class CalculoFinalTest {
 	private FreteFactory fabricaFretes;
 	private DescontoFactory fabricaDesconto;
 	
-	// O valor do frete deve ser somado ao preço final antes de calcular o desconto?
-	// Pois estou calculando o desconto sem somar o valor do frete, dessa forma o frete é calculado a parte
-	
 	@Before
 	public void setUp() {
 		fabricaFretes = new FreteFactory();
