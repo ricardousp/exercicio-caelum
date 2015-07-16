@@ -50,8 +50,9 @@ public class FreteRJTest {
 		Item item2 = new Item("Macbook", 1200, 2);	
 		Item item3 = new Item("TV 52 Polegadas", 3200, 1);		
 		Item item4 = new Item("DVD Philips", 3200, 1);
-		Item item5 = new Item("Microsystem Philips", 3200, 1);
-		Compra compra = new Compra(Arrays.asList(item1, item2, item3, item4, item5), cliente);
+		Item item5 = new Item("Microsystem Philips", 1200, 1);
+		Item item6 = new Item("Geladeira", 2200, 1);
+		Compra compra = new Compra(Arrays.asList(item1, item2, item3, item4, item5, item6), cliente);
 		freteRJ = fabricaFretes.cria(compra);
 		assertEquals(15.00, freteRJ.calcula(compra), 0.0001);	
 	}
