@@ -33,6 +33,5 @@ public class Compra {
 		}
 		return valor;
 	}
-			
-	
+				
 }
