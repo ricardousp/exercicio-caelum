@@ -22,6 +22,7 @@ public class FreteFactoryTest {
 		fabricaFretes = new FreteFactory();
 	}
 	
+	// Caso precisasse testar a exceção NullPointerException, precisaria usar algum assert dentro do meu teste???
 	@Test(expected=NullPointerException.class)
 	public void testeFreteFactoryEstadoNull(){		
 		Frete frete = fabricaFretes.cria(null);
