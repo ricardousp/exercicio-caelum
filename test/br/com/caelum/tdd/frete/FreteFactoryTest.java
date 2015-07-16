@@ -8,10 +8,10 @@ import org.junit.Test;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.fail;
 import static org.hamcrest.CoreMatchers.instanceOf;
-import br.com.caelum.tdd.Cliente;
-import br.com.caelum.tdd.Compra;
-import br.com.caelum.tdd.Estado;
-import br.com.caelum.tdd.Item;
+import br.com.caelum.tdd.beans.Cliente;
+import br.com.caelum.tdd.beans.Compra;
+import br.com.caelum.tdd.beans.Estado;
+import br.com.caelum.tdd.beans.Item;
 
 public class FreteFactoryTest {
 	

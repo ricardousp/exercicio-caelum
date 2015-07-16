@@ -1,6 +1,6 @@
 package br.com.caelum.tdd.frete;
 
-import br.com.caelum.tdd.Compra;
+import br.com.caelum.tdd.beans.Compra;
 
 public interface Frete {
 	

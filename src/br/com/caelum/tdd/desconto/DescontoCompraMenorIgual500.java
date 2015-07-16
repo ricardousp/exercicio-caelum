@@ -1,6 +1,6 @@
 package br.com.caelum.tdd.desconto;
 
-import br.com.caelum.tdd.Compra;
+import br.com.caelum.tdd.beans.Compra;
 
 public class DescontoCompraMenorIgual500 implements Desconto{
 		

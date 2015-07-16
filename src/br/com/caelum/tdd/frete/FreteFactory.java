@@ -1,7 +1,7 @@
 package br.com.caelum.tdd.frete;
 
-import br.com.caelum.tdd.Compra;
-import br.com.caelum.tdd.Estado;
+import br.com.caelum.tdd.beans.Compra;
+import br.com.caelum.tdd.beans.Estado;
 
 public class FreteFactory {
 

@@ -5,9 +5,12 @@ import java.util.Arrays;
 import org.junit.Before;
 import org.junit.Test;
 
+import br.com.caelum.tdd.beans.Cliente;
+import br.com.caelum.tdd.beans.Compra;
+import br.com.caelum.tdd.beans.Estado;
+import br.com.caelum.tdd.beans.Item;
 import br.com.caelum.tdd.desconto.DescontoFactory;
 import br.com.caelum.tdd.frete.FreteFactory;
-
 import static org.junit.Assert.assertEquals;
 
 public class CalculoFinalTest {

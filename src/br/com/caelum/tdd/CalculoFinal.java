@@ -1,5 +1,6 @@
 package br.com.caelum.tdd;
 
+import br.com.caelum.tdd.beans.Compra;
 import br.com.caelum.tdd.desconto.DescontoFactory;
 import br.com.caelum.tdd.frete.FreteFactory;
 

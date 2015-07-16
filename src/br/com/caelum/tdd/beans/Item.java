@@ -1,4 +1,4 @@
-package br.com.caelum.tdd;
+package br.com.caelum.tdd.beans;
 
 public class Item {
 	
