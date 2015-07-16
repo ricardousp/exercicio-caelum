@@ -24,7 +24,7 @@ public class FreteSulTest {
 	
 	@Test
 	public void testeCalculoFreteSul(){
-		Cliente cliente = new Cliente("Pedro", Estado.SUL);
+		Cliente cliente = new Cliente("Ricardo", Estado.SUL);
 		Item item1 = new Item("Iphone 4", 900, 3);	
 		Item item2 = new Item("Macbook", 1200, 2);	
 		Item item3 = new Item("TV 52 Polegadas", 3200, 1);		

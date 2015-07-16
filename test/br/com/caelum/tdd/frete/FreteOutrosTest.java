@@ -24,7 +24,7 @@ public class FreteOutrosTest {
 	
 	@Test
 	public void testeCalculoFreteOutros(){
-		Cliente cliente = new Cliente("Pedro", Estado.OUTRAS_REGIOES);
+		Cliente cliente = new Cliente("Ricardo", Estado.OUTRAS_REGIOES);
 		Item item1 = new Item("Iphone 4", 900, 3);	
 		Item item2 = new Item("Macbook", 1200, 2);	
 		Item item3 = new Item("TV 52 Polegadas", 3200, 1);		
